@@ -1,6 +1,7 @@
 'use strict'
-function logItems(array){
-    for(let i = 0; i < array.length; i++){
+
+function logItems(array) {
+    for (let i = 0; i < array.length; i++) {
         console.log(`[${Number(i + 1)}] - [${array[i]}]`);
     }
 }
